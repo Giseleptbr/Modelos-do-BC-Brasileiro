@@ -1,0 +1,45 @@
+[project]
+name = "modelosbc"
+version = "0.1.0"
+description = "Curso Modelos do Banco Central — reimplementação didática do sistema de projeções do BCB"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Gisele Fonseca de Aguiar Silva" }]
+
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "statsmodels>=0.14",
+    "matplotlib>=3.8",
+    "requests>=2.31",
+    "pyarrow>=15.0",
+]
+
+[project.optional-dependencies]
+notebooks = [
+    "jupyterlab>=4.0",
+    "ipywidgets>=8.1",
+]
+bayes = [
+    "pymc>=5.10",
+    "arviz>=0.17",
+]
+dev = [
+    "pytest>=8.0",
+    "nbformat>=5.9",
+    "nbclient>=0.9",
+    "ruff>=0.4",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

@@ -1,0 +1,29 @@
+# Dados baixados das APIs (reprodutíveis — não versionamos)
+dados/cache/
+dados/bruto/
+!dados/seed/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# Saída de figuras geradas
+figuras/*.png
+figuras/*.svg
+!figuras/.gitkeep
+
+# Sistema
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
