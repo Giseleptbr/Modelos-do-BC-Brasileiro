@@ -43,11 +43,18 @@ Legenda: `[ ]` a fazer · `[~]` em produção · `[x]` pronto e executado de pon
 
 ## Fase 1 — Fontes primárias
 
-- [ ] Relatórios de Política Monetária recentes — tabela de projeções e boxes
-- [ ] Boxes metodológicos do modelo semiestrutural (revisão de 2020)
-- [ ] Trabalho para Discussão do Samba
-- [ ] Boxes de hiato do produto e de juro neutro
-- [ ] Ficha de leitura por documento em `referencias/`, com equações e coeficientes
+Índice e estado em `referencias/FONTES.md`.
+
+- [x] RPM set/2026 — projeções do cenário de referência e lista de boxes (parcial: falta a seção de perspectivas e o apêndice metodológico)
+- [x] Atualização dos modelos semiestruturais de pequeno porte — RI jun/2024, boxe 12. **Especificação vigente, com os coeficientes estimados.**
+- [x] Medidas de hiato do produto no Brasil — RI jun/2024, boxe 10
+- [ ] Conferir as equações do boxe 12 no PDF original — a extração automática perdeu a notação
+- [ ] Samba — Trabalho para Discussão 239
+- [ ] Repasse cambial sob a ótica de um modelo semiestrutural — Estudos Especiais
+- [ ] Juro real neutro — RI jun/2024
+- [ ] Sistema de análise e projeções do BC — RI mar/2023
+- [ ] Modelo desagregado — RI mar/2021; modelo agregado — RI dez/2021
+- [ ] Preços administrados — RI set/2017
 
 ## Módulo 1 — O sistema de projeções do Banco Central
 
